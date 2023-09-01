@@ -442,6 +442,96 @@
     margin-top: 10px;
     width: 50%;
 }
+.riga
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.BottoneTipo
+{
+    height: 50px;
+    width: 20%;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-weight: 600;
+    font-size: 20px;
+}
+#normale {
+    background-color: #A8A878; /* Colore per il tipo "Normale" */
+  }
+  
+  #fuoco {
+    background-color: #F08030; /* Colore per il tipo "Fuoco" */
+  }
+  
+  #acqua {
+    background-color: #6890F0; /* Colore per il tipo "Acqua" */
+  }
+  
+  #erba {
+    background-color: #78C850; /* Colore per il tipo "Erba" */
+  }
+  
+  #elettro {
+    background-color: #F8D030; /* Colore per il tipo "Elettro" */
+  }
+  
+  #ghiaccio {
+    background-color: #98D8D8; /* Colore per il tipo "Ghiaccio" */
+  }
+  
+  #lotta {
+    background-color: #C03028; /* Colore per il tipo "Lotta" */
+  }
+  
+  #veleno {
+    background-color: #A040A0; /* Colore per il tipo "Veleno" */
+  }
+  
+  #terra {
+    background-color: #E0C068; /* Colore per il tipo "Terra" */
+  }
+  
+  #volante {
+    background-color: #A890F0; /* Colore per il tipo "Volante" */
+  }
+  
+  #psico {
+    background-color: #F85888; /* Colore per il tipo "Psico" */
+  }
+  
+  #coleottero {
+    background-color: #A8B820; /* Colore per il tipo "Coleottero" */
+  }
+  
+  #roccia {
+    background-color: #B8A038; /* Colore per il tipo "Roccia" */
+  }
+  
+  #spettro {
+    background-color: #705898; /* Colore per il tipo "Spettro" */
+  }
+  
+  #drago {
+    background-color: #7038F8; /* Colore per il tipo "Drago" */
+  }
+  
+  #buio {
+    background-color: #705848; /* Colore per il tipo "Buio" */
+  }
+  
+  #acciaio {
+    background-color: #B8B8D0; /* Colore per il tipo "Acciaio" */
+  }
+  
+  #folletto {
+    background-color: #EE99AC; /* Colore per il tipo "Folletto" */
+  }
+  
 
 
 

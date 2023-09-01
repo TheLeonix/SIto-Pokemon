@@ -2,84 +2,84 @@ const CalcolaColore=(Num)=>
 {
     switch (pokedex[Num].tipo[0]) {
         case "Fuoco":
-            document.querySelector('#POTD').style.backgroundColor="red"
-            document.querySelector('#TopBar').style.backgroundColor="red"
+            document.querySelector('#POTD').style.backgroundColor="#F08030"
+            document.querySelector('#TopBar').style.backgroundColor="#F08030"
             break;
         case "Elettro":
-            document.querySelector('#POTD').style.backgroundColor="yellow"
-            document.querySelector('#TopBar').style.backgroundColor="yellow"
+            document.querySelector('#POTD').style.backgroundColor="#F8D030"
+            document.querySelector('#TopBar').style.backgroundColor="#F8D030"
             break;
         case "Normale":
-            document.querySelector('#POTD').style.backgroundColor="gainsboro"
-            document.querySelector('#TopBar').style.backgroundColor="gainsboro"
+            document.querySelector('#POTD').style.backgroundColor="#A8A878"
+            document.querySelector('#TopBar').style.backgroundColor="#A8A878"
             break;
         case "Acqua":
-            document.querySelector('#POTD').style.backgroundColor="blue"
-            document.querySelector('#TopBar').style.backgroundColor="blue"
+            document.querySelector('#POTD').style.backgroundColor="#6890F0"
+            document.querySelector('#TopBar').style.backgroundColor="#6890F0"
             break;
         case "Erba":
-            document.querySelector('#POTD').style.backgroundColor="green"
-            document.querySelector('#TopBar').style.backgroundColor="green"
+            document.querySelector('#POTD').style.backgroundColor="#78C850"
+            document.querySelector('#TopBar').style.backgroundColor="#78C850"
             break;
         case "Lotta":
-            document.querySelector('#POTD').style.backgroundColor="maroon"
-            document.querySelector('#TopBar').style.backgroundColor="maroon"
+            document.querySelector('#POTD').style.backgroundColor="#C03028"
+            document.querySelector('#TopBar').style.backgroundColor="#C03028"
             break;
         case "Terra":
-            document.querySelector('#POTD').style.backgroundColor="brown"
-            document.querySelector('#TopBar').style.backgroundColor="brown"
+            document.querySelector('#POTD').style.backgroundColor="#E0C068"
+            document.querySelector('#TopBar').style.backgroundColor="#E0C068"
             break;
         case "Roccia":
-            document.querySelector('#POTD').style.backgroundColor="burlywood"
-            document.querySelector('#TopBar').style.backgroundColor="burlywood"
+            document.querySelector('#POTD').style.backgroundColor="#B8A038"
+            document.querySelector('#TopBar').style.backgroundColor="#B8A038"
             break;
         case "Buio":
-            document.querySelector('#POTD').style.backgroundColor="black"
-            document.querySelector('#TopBar').style.backgroundColor="black"
+            document.querySelector('#POTD').style.backgroundColor="#B8A038"
+            document.querySelector('#TopBar').style.backgroundColor="#B8A038"
             break;
         case "???":
-            document.querySelector('#POTD').style.backgroundColor="aquamarine"
-            document.querySelector('#TopBar').style.backgroundColor="aquamarine"
+            document.querySelector('#POTD').style.backgroundColor="#53CEB1"
+            document.querySelector('#TopBar').style.backgroundColor="#53CEB1"
             break;
         case "Ombra":
-            document.querySelector('#POTD').style.backgroundColor="black"
-            document.querySelector('#TopBar').style.backgroundColor="black"
+            document.querySelector('#POTD').style.backgroundColor="#000000"
+            document.querySelector('#TopBar').style.backgroundColor="#000000"
             break;
         case "Ghiaccio":
-            document.querySelector('#POTD').style.backgroundColor="aqua"
-            document.querySelector('#TopBar').style.backgroundColor="aqua"
+            document.querySelector('#POTD').style.backgroundColor="#98D8D8"
+            document.querySelector('#TopBar').style.backgroundColor="#98D8D8"
             break;
         case "Veleno":
-            document.querySelector('#POTD').style.backgroundColor="plum"
-            document.querySelector('#TopBar').style.backgroundColor="plum"
+            document.querySelector('#POTD').style.backgroundColor="#A040A0"
+            document.querySelector('#TopBar').style.backgroundColor="#A040A0"
             break;
         case "Volante":
-            document.querySelector('#POTD').style.backgroundColor="skyblue"
-            document.querySelector('#TopBar').style.backgroundColor="skyblue"
+            document.querySelector('#POTD').style.backgroundColor="#A890F0"
+            document.querySelector('#TopBar').style.backgroundColor="#A890F0"
             break;
         case "Psico":
-            document.querySelector('#POTD').style.backgroundColor="pink"
-            document.querySelector('#TopBar').style.backgroundColor="pink"
+            document.querySelector('#POTD').style.backgroundColor="#F85888"
+            document.querySelector('#TopBar').style.backgroundColor="#F85888"
             break;
         case "Spettro":
-            document.querySelector('#POTD').style.backgroundColor="purple"
-            document.querySelector('#TopBar').style.backgroundColor="purple"
+            document.querySelector('#POTD').style.backgroundColor="#705898"
+            document.querySelector('#TopBar').style.backgroundColor="#705898"
             break;
         case "Coleottero":
-            document.querySelector('#POTD').style.backgroundColor="lightgreen"
-            document.querySelector('#TopBar').style.backgroundColor="lightgreen"
+            document.querySelector('#POTD').style.backgroundColor="#A8B820"
+            document.querySelector('#TopBar').style.backgroundColor="#A8B820"
             break;
         case "Acciaio":
-            document.querySelector('#POTD').style.backgroundColor="grey"
-            document.querySelector('#TopBar').style.backgroundColor="grey"
+            document.querySelector('#POTD').style.backgroundColor="#B8B8D0"
+            document.querySelector('#TopBar').style.backgroundColor="#B8B8D0"
             break;
         case "Drago":
-            document.querySelector('#POTD').style.backgroundColor="darkblue"
-            document.querySelector('#TopBar').style.backgroundColor="darkblue"
+            document.querySelector('#POTD').style.backgroundColor="#7038F8"
+            document.querySelector('#TopBar').style.backgroundColor="#7038F8"
             break;
         case "Folletto":
-            document.querySelector('#POTD').style.backgroundColor="plum"
-            document.querySelector('#TopBar').style.backgroundColor="plum"
+            document.querySelector('#POTD').style.backgroundColor="#EE99AC"
+            document.querySelector('#TopBar').style.backgroundColor="#EE99AC"
             break;                              
         default:
             break;
@@ -89,64 +89,64 @@ const CalcolaColorTipo=(Num, i)=>
 {
     switch (pokedex[Num].tipo[i]) {
         case "Fuoco":
-                return "red"
+                return "#F08030"
             break;
         case "Elettro":
-            return"yellow"
+            return"#F8D030"
             break;
         case "Normale":
-            return"gainsboro"
+            return"#A8A878"
             break;
         case "Acqua":
-            return"blue"
+            return"#6890F0"
             break;
         case "Erba":
-            return"green"
+            return"#78C850"
             break;
         case "Lotta":
-            return"maroon"
+            return"#C03028"
             break;
         case "Terra":
-            return"brown"
+            return"#E0C068"
             break;
         case "Roccia":
-            return"burlywood"
+            return"#B8A038"
             break;
         case "Buio":
-            return"black"
+            return"#B8A038"
             break;
         case "???":
-            return"aquamarine"
+            return"#53CEB1"
             break;
         case "Ombra":
-            return"black"
+            return"#000000"
             break;
         case "Ghiaccio":
-            return"aqua"
+            return"#98D8D8"
             break;
         case "Veleno":
-            return"plum"
+            return"#A040A0"
             break;
         case "Volante":
-            return"skyblue"
+            return"#A890F0"
             break;
         case "Psico":
-            return"pink"
+            return"#F85888"
             break;
         case "Spettro":
-            return"purple"
+            return"#705898"
             break;
         case "Coleottero":
-            return"lightgreen"
+            return"#A8B820"
             break;
         case "Acciaio":
-            return"grey"
+            return"#B8B8D0"
             break;
         case "Drago":
-            return"darkblue"
+            return"#7038F8"
             break;
         case "Folletto":
-            return"plum"
+            return"#EE99AC"
             break;                              
         default:
             break;
@@ -156,64 +156,64 @@ const CalcolaColorTipoDebolezze=(Num, i)=>
 {
     switch (pokedex[Num].debolezze[i]) {
         case "Fuoco":
-                return "red"
+                return "#F08030"
             break;
         case "Elettro":
-            return"yellow"
+            return"#F8D030"
             break;
         case "Normale":
-            return"gainsboro"
+            return"#A8A878"
             break;
         case "Acqua":
-            return"blue"
+            return"#6890F0"
             break;
         case "Erba":
-            return"green"
+            return"#78C850"
             break;
         case "Lotta":
-            return"maroon"
+            return"#C03028"
             break;
         case "Terra":
-            return"brown"
+            return"#E0C068"
             break;
         case "Roccia":
-            return"burlywood"
+            return"#B8A038"
             break;
         case "Buio":
-            return"black"
+            return"#B8A038"
             break;
         case "???":
-            return"aquamarine"
+            return"#53CEB1"
             break;
         case "Ombra":
-            return"black"
+            return"#000000"
             break;
         case "Ghiaccio":
-            return"aqua"
+            return"#98D8D8"
             break;
         case "Veleno":
-            return"plum"
+            return"#A040A0"
             break;
         case "Volante":
-            return"skyblue"
+            return"#A890F0"
             break;
         case "Psico":
-            return"pink"
+            return"#F85888"
             break;
         case "Spettro":
-            return"purple"
+            return"#705898"
             break;
         case "Coleottero":
-            return"lightgreen"
+            return"#A8B820"
             break;
         case "Acciaio":
-            return"grey"
+            return"#B8B8D0"
             break;
         case "Drago":
-            return"darkblue"
+            return"#7038F8"
             break;
         case "Folletto":
-            return"plum"
+            return"#EE99AC"
             break;                              
         default:
             break;
