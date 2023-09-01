@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./js/PKM_Array.js"></script>
+    <script src="./js/Search_by_type.js"></script>
+    <script src="./js/Search_by_word.js"></script>
+    <script src="./js/StampaPKM.js"></script>
+    <script src="./js/NextPage.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+	<title>Home</title>
+</head>
+<body onload="CaricaRand()">
+    <div class="container-fluid">
+        <!-- Header PC -->
+        <div class="row">
+            <div class="d-none d-xl-block col-xl-1" style="background-color: rgb(236, 236, 236);">
+                <div id="Logo">
+                    <img src="https://www.freeiconspng.com/thumbs/pokeball-png/pokeball-transparent-png-2.png" alt="Una Pokeball lolololol" class="img-fluid w-75">
+                </div>
+            </div>
+            <div class="d-none d-xl-block col-xl-11" style="height: 120px; background-color: rgb(236, 236, 236);">
+                <div id="Top">
+                    <div id="Header">
+                        <div id="BenDivPC">
+                            <div id="PL">
+                                <div id="BenPC">
+                                    BENVENUTI 
+                                </div>
+                                <div id="TestoSop" class="TestoHeader">
+                                    nella poke wiki!
+                                </div>
+                            </div>
+                            <div class="TestoHeader">
+                                by Leonardo Canino
+                            </div>
+                        </div>
+                        <div id="ChiccheDivPC">
+                            <div id="InfoPKM">
+                                <div id="NumPKM">
+
+                                    0
+
+                                </div>
+                                <div id="ScritPKM">
+                                    Pokemon!
+                                </div>
+                            </div>
+                            <div id="PKMGiornaliero">
+                                <div id="PKMRNG">
+
+                                    NULL
+
+                                </div>
+                                <div id="QuestoPKM">
+                                    Pokemon del giorno!
+                                </div>
+                            </div>
+                            <div id="TipoGiornaliero">
+                                <div id="TipoRNG">
+
+                                    NULL
+
+                                </div>
+                                <div id="QuestoTipo">
+                                    Tipo del giorno!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="BT">
+                        <div>
+
+                            <input type="button" value="Ricerca Pokemon per parola" id="BottoneTop" onclick="window.location.href='WordSearch.html'">
+                            <input type="button" value="Ricerca Pokemon per Tipo" id="BottoneTop2">
+    
+                        </div>
+                        <div class="search-container">
+                            <input type="text" id="searchInput" placeholder="Ricerca veloce...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Mobile -->
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <!-- Mid PC -->
+        <div class="row">
+            <div class="d-none d-xl-block col-xl-1" style="background-color: rgb(236, 236, 236);">
+                <div id="NavBar">
+                    <div id="Main">
+                        <div class="TitoloNav">Main</div>
+                        <input type="button" value="Home" class="Bottone" onclick="window.location.href='index.html'">
+                        <input type="button" value="PokéRandom" class="Bottone" onclick="window.location.href='random.html'">
+                        <input type="button" value="Tipo a caso" class="Bottone">
+                        <input type="button" value="Crediti" class="Bottone">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="Bottone">Speciale</a>
+                    </div>
+                    <div id="Social">
+
+                        <div class="TitoloNav">Social</div>
+                        <a href="http://google.it" class="Bottone">Google</a>
+                        <a href="http://youtube.it" class="Bottone">Youtube</a>
+                        <a href="http://github.com" class="Bottone">Github</a>
+                        <a href="http://reddit.com" class="Bottone">Reddit</a>
+                        <a href="http://facebook.com" class="Bottone">Facebook</a>
+                        <a href="http://X.com" class="Bottone">X</a>
+                        <a href="http://instagram.com" class="Bottone">Instagram</a>
+
+                    </div>
+                    <div id="Lingue">
+                        <div class="TitoloNav">Lingue</div>
+                        <a href="https://it.wikipedia.org/wiki/Lingua_italiana" class="Bottone">Italiano</a>
+                        <a href="https://it.wikipedia.org/wiki/Lingua_inglese" class="Bottone">Inglese</a>
+                        <a href="https://it.wikipedia.org/wiki/Lingua_spagnola" class="Bottone">Spagnolo</a>
+                        <a href="https://it.wikipedia.org/wiki/Lingua_francese" class="Bottone">Francese</a>
+                        <a href="https://it.wikipedia.org/wiki/Lingua_tedesca" class="Bottone">Tedesco</a>
+                        <a href="https://it.wikipedia.org/wiki/Lingua_giapponese" class="Bottone">Giapponese</a>
+                        <a href="https://it.wikipedia.org/wiki/Lingua_cinese" class="Bottone">Cinese</a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="d-none d-xl-block col-xl-11" style="border: 2px solid rgb(255, 0, 0);border-right: none; height: 847px;">
+                <div id="Pagina">
+                    <div id="TopBar">
+                        <input type="button" value="" class="Bar" id="uno" onclick="Prima()">
+                        <div class="Bar" id="due"></div>
+                        <input type="button" value="" class="Bar" id="tre" onclick="Next()">
+                    </div>
+                        <div id="suggestions" class="suggestions"></div>
+                        <div id="POTD">
+                            <div id="TopP">
+                                <img id="IMG_POTD" src="#" alt="Immagine">
+                                <div id="NumeroPKM"></div>
+                                <div id="NomePKM"></div>
+                                <div id="TipiPKM"></div>
+                                <div id="Stadio"></div>
+                            </div>
+                            <div id="MidP">
+                                <div class="DescrPOTD">Debolezze</div>
+                                <div id="DPOTD"></div>
+                            </div>
+                            <div id="BottomP">
+                                <div class="DivB">
+                                    <div class="DescrPOTD">Altezza</div>
+                                    <div class="InfoPKM" id="primo"></div>
+                                </div>
+                                <div class="DivB">
+                                    <div class="DescrPOTD">Peso</div>
+                                    <div class="InfoPKM" id="secondo"></div>
+                                </div>
+                                <div class="DivB">   
+                                    <div class="DescrPOTD">Tasso di cattura</div>
+                                    <div class="InfoPKM" id="terzo"></div>
+                                </div>
+                            </div>
+
+                            
+
+                        </div>
+                        
+
+
+                </div>
+            
+            
+            
+            </div>
+        </div>
+        </div>
+        
+    </div>
+    <script src="./js/Chicche.js"></script>
+</body>
+</html>
