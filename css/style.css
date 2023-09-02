@@ -521,7 +521,7 @@
   }
   
   #buio {
-    background-color: #705848; /* Colore per il tipo "Buio" */
+    background-color: #493d35; /* Colore per il tipo "Buio" */
   }
   
   #acciaio {
@@ -531,6 +531,10 @@
   #folletto {
     background-color: #EE99AC; /* Colore per il tipo "Folletto" */
   }
+.BottoneTipoF
+{
+    margin-bottom: 120px;
+}
   
 
 

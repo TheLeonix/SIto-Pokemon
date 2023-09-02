@@ -34,8 +34,8 @@ const CalcolaColore=(Num)=>
             document.querySelector('#TopBar').style.backgroundColor="#B8A038"
             break;
         case "Buio":
-            document.querySelector('#POTD').style.backgroundColor="#B8A038"
-            document.querySelector('#TopBar').style.backgroundColor="#B8A038"
+            document.querySelector('#POTD').style.backgroundColor="#493d35"
+            document.querySelector('#TopBar').style.backgroundColor="#493d35"
             break;
         case "???":
             document.querySelector('#POTD').style.backgroundColor="#53CEB1"
@@ -113,7 +113,7 @@ const CalcolaColorTipo=(Num, i)=>
             return"#B8A038"
             break;
         case "Buio":
-            return"#B8A038"
+            return"#493d35"
             break;
         case "???":
             return"#53CEB1"
@@ -180,7 +180,7 @@ const CalcolaColorTipoDebolezze=(Num, i)=>
             return"#B8A038"
             break;
         case "Buio":
-            return"#B8A038"
+            return"#493d35"
             break;
         case "???":
             return"#53CEB1"
