@@ -3491,7 +3491,7 @@ altezza:"0.4"
     stadio_evolutivo:"Base",
     img_url:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/318.png",
     tipo: ["Acqua","Buio"],
-    debolezze: ["Lotta","Buio","Folletto","Coleottero","Erba","Elettro","Acqua"],
+    debolezze: ["Lotta","Folletto","Coleottero","Erba","Elettro"],
     tasso_di_cattura: 225,
     peso:"20.8",
     altezza:"0.8"
