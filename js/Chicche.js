@@ -2,6 +2,7 @@ const Arraycount=()=>
 {
   let Lunghezza = pokedex.length+1
   document.querySelector("#NumPKM").innerHTML = Lunghezza;
+  document.querySelector("#StampaNum").innerHTML = Lunghezza;
 }
 
 let Tipi=["Normale", "Fuoco", "Acqua", "Elettro", "Erba", "Ghiaccio", "Lotta", "Veleno", "Terra", "Volante", "Psico", "Coleottero", "Roccia", "Spettro", "Acciaio", "Drago", "Buio", "Folletto","???","Ombra"]
@@ -32,12 +33,14 @@ const generateRandomNumberBasedOnDate=(date)=>
   {
 
     document.querySelector("#PKMRNG").innerHTML = pokedex[randomNum].nome;
+    document.querySelector("#StampaPoke").innerHTML = pokedex[randomNum].nome;
 
   }
   const CreaTipo=()=>
   {
 
     document.querySelector("#TipoRNG").innerHTML = Tipi[randomNum2];
+    document.querySelector("#StampaTipo").innerHTML = Tipi[randomNum2];
 
   }
   
@@ -48,7 +51,7 @@ const generateRandomNumberBasedOnDate=(date)=>
     Arraycount()
     CreaPKM()
     CreaTipo()
-    StampaPKMV(randomNum)
+    StampaPKMV(0)
   }
   const CaricaRand=()=>
   {

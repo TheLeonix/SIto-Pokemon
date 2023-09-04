@@ -287,7 +287,7 @@
 }
 #TipiPKM
 {
-    width: 25%;
+    width: 300px;
     display: flex;
     flex-direction: row;
     height: 50px;
@@ -536,8 +536,283 @@
 {
     margin-bottom: 120px;
 }
-  
 
+
+
+
+/*Mobile*/
+#TotUp
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#TotUUp
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 200;
+}
+#TotUpBenvenuto
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+#TotUpDown
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    justify-content: space-evenly;
+}
+#Welcome
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.DivChicche
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    width: 30%;
+}
+#StampaNum
+{
+    display: flex; 
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+#StampaPoke
+{
+    display: flex; 
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+#StampaTipo
+{
+    display: flex; 
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+#POTDM
+{
+    width: 100%;
+    height: 400px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+#IMGPOTDM
+{
+    background-color: white;
+    width: 175px;
+    height: 175px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-bottom: none;
+}
+#InfoPKMM
+{
+    height: 175px;
+    width: 100%;
+    margin-top: 10px;
+}
+#NumeroPKMM
+{
+    font-weight: bold;
+    color: white;
+    font-size: 27px;
+    margin-right: 2%;
+}
+#NomePKMM
+{
+    font-weight: bold;
+    color: white;
+    font-size: 27px;
+}
+#FasePKMM
+{
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+    display: flex;
+    justify-content: end    ;
+    width: 95%;
+    align-items: center;
+    margin-top: 3px;
+
+}
+#FasePKMMS
+{
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+}
+#TipiPKMM
+{
+    width: 97%;
+    background-color: white;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.TipoPKMM
+{
+    display: flex;
+    width: 45%;
+    border-radius: 15px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
+#DebPKMM
+{
+    width: 94%;
+    background-color: white;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.DescrPOTDM
+{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#MidPOTDM
+{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.DebolezzePKMM
+{
+    display: flex;
+    width: 30%;
+    border-radius: 15px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.DivInfoM
+{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+#BottomPOTDM
+{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.InfoPKMM
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+}
+.DescrPOTDBM
+{
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 

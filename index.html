@@ -73,8 +73,7 @@
                     </div>
                     <div id="BT">
                         <div>
-
-                            <input type="button" value="Ricerca Pokemon per parola" id="BottoneTop" onclick="window.location.href='WordSearch.html'">
+                           <input type="button" value="Ricerca Pokemon per parola" id="BottoneTop" onclick="window.location.href='WordSearch.html'">
                             <input type="button" value="Ricerca Pokemon per Tipo" id="BottoneTop2" onclick="window.location.href='TypeSearch.html'">
     
                         </div>
@@ -85,7 +84,31 @@
                 </div>
             </div>
             <!-- Header Mobile -->
-
+            <div class="d-xl-none col-12" style="height: 120px; background-color: rgb(236, 236, 236);">
+                <div  id="TotUp">  
+                    <div id="TotUUp">
+                        <div id="TotUpBenvenuto">
+                            <div id="Welcome">BENVENUTI</div>
+                            <div>nella poke wiki!</div>
+                        </div>
+                        <div>by Leonardo Canino</div>
+                    </div>
+                    <div id="TotUpDown">
+                        <div class="DivChicche">
+                            <div id="StampaNum"></div>
+                            <div>Pokemon!</div>
+                        </div>
+                        <div class="DivChicche">
+                            <div id="StampaPoke"></div>
+                            <div>Pokemon del giorno!</div>
+                        </div>
+                        <div class="DivChicche">
+                            <div id="StampaTipo"></div>
+                            <div>Tipo del giorno!</div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
 
 
 
@@ -179,6 +202,50 @@
             
             
             </div>
+
+            <!-- Mid Mobile -->
+            <div class="d-xl-none col-12" style="height: 800px; border: 2px solid red; border-right: none;">
+            
+                <div class="col-12 col-md-9 col-lg-7">
+                    <div id="POTDM">
+                        <div style="display: flex; height: 175px;">
+                            <img src="" alt="" id="IMGPOTDM">
+                            <div id="InfoPKMM">
+                                <div style="display: flex">
+                                    <div id="NumeroPKMM"></div>
+                                    <div id="NomePKMM"></div>
+                                    <div class="d-none d-sm-block" style="width: 100%;"><div id="FasePKMM"></div></div>
+                                </div>
+                                <div class="col-12 d-sm-none" id="FasePKMMS"></div>
+                                <div id="TipiPKMM"></div>
+                            </div>
+                        </div>
+                        <div id="MidPOTDM">
+                            <div class="DescrPOTDM">Debolezze</div>
+                            <div id="DebPKMM"></div>
+                        </div>
+                        <div id="BottomPOTDM">
+                            <div class="InfoPKMM">
+                                <div  class="DescrPOTDBM" >Altezza</div>
+                                <div class="DivInfoM" id="IPrimo"></div>
+                            </div>
+                            <div class="InfoPKMM">
+                                <div  class="DescrPOTDBM">Peso</div>
+                                <div class="DivInfoM"  id="ISecondo"></div>
+                            </div>
+                            <div class="InfoPKMM">
+                                <div  class="DescrPOTDBM">Tasso di cattura</div>
+                                <div class="DivInfoM"  id="ITerzo"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                
+                </div>
+            
+            </div>
+
         </div>        
     </div>
     <script src="./js/Chicche.js"></script>
