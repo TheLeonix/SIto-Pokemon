@@ -713,6 +713,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 5px;
 }
 .DebolezzePKMM
 {
@@ -764,6 +765,50 @@
     justify-content: center;
 }
 
+/*test*/
+.container {
+    position: relative;
+  }
+  
+  .menu {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: left 0.3s;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    padding: 10px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  
+  #openMenu {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  
+  #closeMenu {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+/*Test*/
 
 
 

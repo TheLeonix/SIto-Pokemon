@@ -51,7 +51,7 @@ const generateRandomNumberBasedOnDate=(date)=>
     Arraycount()
     CreaPKM()
     CreaTipo()
-    StampaPKMV(0)
+    StampaPKMV(randomNum)
   }
   const CaricaRand=()=>
   {
@@ -122,10 +122,22 @@ const generateRandomNumberBasedOnDate=(date)=>
       }
   });
 
-  document.querySelector("#SearchByName").addEventListener("keydown", (event)=> {
-    if (event.key === "Enter") {
-      RicercaN();
-    }
-  });
+//Test
+const openMenuButton = document.getElementById("openMenu");
+const closeMenuButton = document.getElementById("closeMenu");
+const sideMenu = document.getElementById("sideMenu");
 
-  
+openMenuButton.addEventListener("click", () => {
+    sideMenu.style.left = "0";
+});
+
+closeMenuButton.addEventListener("click", () => {
+    sideMenu.style.left = "-250px";
+});
+
+document.querySelector("#SearchByName").addEventListener("keydown", (event)=> {
+  if (event.key === "Enter") {
+    RicercaN();
+  }
+});
+//Test
