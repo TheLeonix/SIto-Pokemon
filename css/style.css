@@ -104,30 +104,30 @@
     text-decoration: underline;
     color: rgb(255, 0, 0);
 }
-#Main
+.Main
 {
     display: flex;
     flex-direction: column;
     width: 85%;
-    height: 33%;
+    height: 200px;
     justify-content: center;
     align-items: start;
 }
-#Social
+.Social
 {
     display: flex;
     flex-direction: column;
     width: 85%;
-    height: 33%;
+    height: 200px;
     justify-content: center;
     align-items: start;
 }
-#Lingue
+.Lingua
 {
     display: flex;
     flex-direction: column;
     width: 85%;
-    height: 33%;
+    height: 200px;
     justify-content: center;
     align-items: start;
 
@@ -205,7 +205,6 @@
 #suggestions {
     cursor: pointer;
     display: flex;
-    margin-left: 74.48%;
     border: 2px solid rgb(188, 188, 188);
     width: 300px;
     border-top: none;
@@ -222,7 +221,7 @@
 .suggestion-item {
     padding: 2px;
     cursor: pointer;
-    width: 300px;
+    width: 100%;
 }
 
 .suggestion-item:hover {
@@ -776,30 +775,21 @@
     top: 0;
     width: 250px;
     height: 100%;
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(236, 236, 236);
+    color: #000000;
     transition: left 0.3s;
+    border-right: 2px red solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .menu ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .menu ul li {
-    padding: 10px;
-  }
-  
-  .menu ul li a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-  }
-  
   #openMenu {
     position: absolute;
     left: 10px;
     top: 10px;
+    height: 30px;
+    width: 30px;
   }
   
   #closeMenu {
@@ -809,7 +799,30 @@
     cursor: pointer;
   }
 /*Test*/
-
+#suggestionsM
+{
+    position: absolute;
+    background-color: white;
+    top: 75px;
+    width: 153px;
+    border: 2px solid rgb(188, 188, 188);
+    border-top: none;
+}
+#containerSuggestions
+{
+    width: 100%;
+    justify-content: end;
+    display: flex;
+}
+.Ricerca
+{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 90px;
+    align-items: start;
+    margin-top: 20px;
+}
 
 
 

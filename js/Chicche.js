@@ -73,6 +73,8 @@ const generateRandomNumberBasedOnDate=(date)=>
   }
   const searchInput = document.querySelector('#searchInput');
   const suggestionsContainer = document.querySelector('#suggestions');
+  const searchInputM = document.querySelector('#searchInputM');
+  const suggestionsContainerM = document.querySelector('#suggestionsM');
   let suggestions=[]
   
   for(i=0;i<pokedex.length;i++)
@@ -114,26 +116,51 @@ const generateRandomNumberBasedOnDate=(date)=>
             suggestionsContainer.style.display = 'none';
         }
     });
+    searchInputM.addEventListener('input', () => {
+      const searchTerm = searchInputM.value.toLowerCase();
+      const filteredSuggestions = suggestions.filter(suggestion =>
+          suggestion.toLowerCase().includes(searchTerm)
+      );
+  
+      if (filteredSuggestions.length > 0) {
+          suggestionsContainerM.innerHTML = '';
+          for (let i = 0; i < Math.min(maxSuggestions, filteredSuggestions.length); i++) {
+              const suggestion = filteredSuggestions[i];
+              const suggestionItem = document.createElement('div');
+              suggestionItem.classList.add('suggestion-item');
+              suggestionItem.textContent = suggestion;
+              suggestionItem.addEventListener('click', () => {
+                  searchInputM.value = suggestion;
+                  suggestionsContainerM.innerHTML = '';
+              });
+              suggestionsContainerM.appendChild(suggestionItem);
+          }
+          suggestionsContainerM.style.display = 'block';
+      } else {
+          suggestionsContainerM.style.display = 'none';
+      }
+  });
   })
 
   document.addEventListener('click', (event) => {
       if (!suggestionsContainer.contains(event.target) && event.target !== searchInput) {
           suggestionsContainer.style.display = 'none';
       }
+      if (!suggestionsContainerM.contains(event.target) && event.target !== searchInput) {
+        suggestionsContainerM.style.display = 'none';
+    }
   });
 
 //Test
-const openMenuButton = document.getElementById("openMenu");
-const closeMenuButton = document.getElementById("closeMenu");
 const sideMenu = document.getElementById("sideMenu");
-
-openMenuButton.addEventListener("click", () => {
-    sideMenu.style.left = "0";
-});
-
-closeMenuButton.addEventListener("click", () => {
-    sideMenu.style.left = "-250px";
-});
+const SideBarOpen=()=>
+{
+  sideMenu.style.left = "0";
+}
+const SideBarClose=()=>
+{
+  sideMenu.style.left = "-250px";
+}
 
 document.querySelector("#SearchByName").addEventListener("keydown", (event)=> {
   if (event.key === "Enter") {
