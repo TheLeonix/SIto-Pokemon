@@ -98,7 +98,7 @@ const CalcolaColore=(Num)=>
             document.querySelector('#TopBarM').style.backgroundColor="#705898"
             break;
         case "Coleottero":
-            document.querySelector('#POTD').style.backgroundColor="#A8B820"
+            document.querySelector('#POTD').style.backgroundColor="#A0B820"
             document.querySelector('#TopBar').style.backgroundColor="#A8B820"
             document.querySelector('#POTDM').style.backgroundColor="#A8B820"
             document.querySelector('#TopBarM').style.backgroundColor="#A8B820"
