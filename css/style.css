@@ -109,7 +109,7 @@
     display: flex;
     flex-direction: column;
     width: 85%;
-    height: 200px;
+    height: 220px;
     justify-content: center;
     align-items: start;
 }
@@ -118,7 +118,7 @@
     display: flex;
     flex-direction: column;
     width: 85%;
-    height: 200px;
+    height: 220px;
     justify-content: center;
     align-items: start;
 }
@@ -127,10 +127,9 @@
     display: flex;
     flex-direction: column;
     width: 85%;
-    height: 200px;
+    height: 220px;
     justify-content: center;
     align-items: start;
-
 }
 .TitoloNav
 {
@@ -404,7 +403,7 @@
 .StampaSearch
 {
     background-color: black;
-    width: 40%;
+    width: 400px;
     height: 100px;
     min-height: 100px;
     margin-top: 10px;
@@ -451,7 +450,7 @@
 .BottoneTipo
 {
     height: 50px;
-    width: 20%;
+    width: 300px;
     color: white;
     border: none;
     border-radius: 20px;
@@ -460,77 +459,78 @@
     font-weight: 600;
     font-size: 20px;
 }
-#normale {
+.normale {
     background-color: #A8A878; /* Colore per il tipo "Normale" */
   }
   
-  #fuoco {
+  .fuoco {
     background-color: #F08030; /* Colore per il tipo "Fuoco" */
   }
   
-  #acqua {
+  .acqua {
     background-color: #6890F0; /* Colore per il tipo "Acqua" */
   }
   
-  #erba {
+  .erba {
     background-color: #78C850; /* Colore per il tipo "Erba" */
   }
   
-  #elettro {
+  .elettro {
     background-color: #F8D030; /* Colore per il tipo "Elettro" */
   }
   
-  #ghiaccio {
+.ghiaccio {
     background-color: #98D8D8; /* Colore per il tipo "Ghiaccio" */
   }
   
-  #lotta {
+  .lotta {
     background-color: #C03028; /* Colore per il tipo "Lotta" */
   }
   
-  #veleno {
+  .veleno {
     background-color: #A040A0; /* Colore per il tipo "Veleno" */
   }
   
-  #terra {
+  .terra {
     background-color: #E0C068; /* Colore per il tipo "Terra" */
   }
   
-  #volante {
+  .volante {
     background-color: #A890F0; /* Colore per il tipo "Volante" */
   }
   
-  #psico {
+  .psico {
     background-color: #F85888; /* Colore per il tipo "Psico" */
   }
   
-  #coleottero {
+  .coleottero {
     background-color: #A8B820; /* Colore per il tipo "Coleottero" */
   }
   
-  #roccia {
+  .roccia {
     background-color: #B8A038; /* Colore per il tipo "Roccia" */
   }
   
-  #spettro {
+  .spettro {
     background-color: #705898; /* Colore per il tipo "Spettro" */
   }
   
-  #drago {
+  .drago {
     background-color: #7038F8; /* Colore per il tipo "Drago" */
   }
   
-  #buio {
+  .buio {
     background-color: #493d35; /* Colore per il tipo "Buio" */
   }
   
-  #acciaio {
+  .acciaio {
     background-color: #B8B8D0; /* Colore per il tipo "Acciaio" */
   }
   
-  #folletto {
+  .folletto {
     background-color: #EE99AC; /* Colore per il tipo "Folletto" */
   }
+  
 .BottoneTipoF
 {
     margin-bottom: 120px;
@@ -819,9 +819,67 @@
     display: flex;
     flex-direction: column;
     width: 85%;
-    height: 90px;
+    height: 130px;
     align-items: start;
     margin-top: 20px;
+}
+#TopBarM
+{
+    display: flex;
+    height: 50px;
+    background-color: blue;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#PrimoBar
+{
+    background-color: white;
+    width: 30%;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+#SecondoBar
+{
+    display: flex;
+    background-color: white;
+    width: 30%;
+    height: 35px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+#TerzoBar
+{
+    background-color: white;
+    width: 30%;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+#SearchByNameM
+{
+    margin-top: 10px;
+    width: 50%;
+}
+#Page
+{
+    max-height: 900px;
+    overflow: auto;
+}
+#PageT
+{
+    max-height: 900px;
+    overflow: auto;
 }
 
 

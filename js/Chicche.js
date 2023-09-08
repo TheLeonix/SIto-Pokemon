@@ -64,6 +64,9 @@ const generateRandomNumberBasedOnDate=(date)=>
     document.querySelector("#uno").value="<--"+pokedex[randomInt-1].nome
     document.querySelector("#due").innerHTML=pokedex[randomInt].nome
     document.querySelector("#tre").value=pokedex[randomInt+1].nome+"-->"
+    document.querySelector("#PrimoBar").value="<--"+pokedex[randomInt-1].nome
+    document.querySelector("#SecondoBar").innerHTML=pokedex[randomInt].nome
+    document.querySelector("#TerzoBar").value=pokedex[randomInt+1].nome+"-->"
   }
   const CaricaSearch=()=>
   {
@@ -165,6 +168,11 @@ const SideBarClose=()=>
 document.querySelector("#SearchByName").addEventListener("keydown", (event)=> {
   if (event.key === "Enter") {
     RicercaN();
+  }
+});
+document.querySelector("#SearchByNameM").addEventListener("keydown", (event)=> {
+  if (event.key === "Enter") {
+    RicercaNM();
   }
 });
 //Test

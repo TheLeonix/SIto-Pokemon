@@ -53,7 +53,30 @@ const StampaTipo=()=>
 		DivPKM.appendChild(TextDivPKM)
 		document.querySelector("#Pagina").appendChild(DivPKM)
 	}
+	for(i=0; i<found.length; i++)
+	{
+		const DivPKM = document.createElement('div');
+		const ImgDivPKM = document.createElement('img');
+		const TextDivPKM = document.createElement('div')
+		DivPKM.setAttribute("class", "StampaSearch");
+		DivPKM.setAttribute("data-indice", found[i])
+		DivPKM.addEventListener('click', (event) => {
+			var indice = event.currentTarget.getAttribute("data-indice")
+			localStorage.setItem('Indice',indice-1)
+			window.location.href='StampaRicPKM.html'
+		});
+		Tipo=CalcolaColorTipo(found[i], 0)
+		DivPKM.style.backgroundColor=Tipo
+		ImgDivPKM.src= pokedex[found[i]].img_url
+		TextDivPKM.textContent=pokedex[found[i]].nome
+		ImgDivPKM.setAttribute("class","FotoPKMSearch")
+		TextDivPKM.setAttribute("class","TextSearchPKM")
+		DivPKM.appendChild(ImgDivPKM)
+		DivPKM.appendChild(TextDivPKM)
+		document.querySelector("#PageT").appendChild(DivPKM)
+	}
     document.querySelector("#Pagina").scrollBy(0,840)
+	document.querySelector("#PageT").scrollBy(0,840)
 }
 const tipoNormale = () => {type ="Normale";RicercaT()}
 const tipoLotta = () => {type ="Lotta";RicercaT()}

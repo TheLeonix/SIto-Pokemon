@@ -85,7 +85,32 @@
                 </div>
             </div>
             <!-- Header Mobile -->
-
+            <div class="d-xl-none col-12" style="height: 120px; background-color: rgb(236, 236, 236);">
+                <div  id="TotUp">  
+                    <div id="TotUUp">
+                        <div id="TotUpBenvenuto">
+                            <input type="button" value="_" id="openMenu" onclick="SideBarOpen()">
+                            <div id="Welcome">BENVENUTI</div>
+                            <div>nella poke wiki!</div>
+                        </div>
+                        <div>by Leonardo Canino</div>
+                    </div>
+                    <div id="TotUpDown">
+                        <div class="DivChicche">
+                            <div id="StampaNum"></div>
+                            <div>Pokemon!</div>
+                        </div>
+                        <div class="DivChicche">
+                            <div id="StampaPoke"></div>
+                            <div>Pokemon del giorno!</div>
+                        </div>
+                        <div class="DivChicche">
+                            <div id="StampaTipo"></div>
+                            <div>Tipo del giorno!</div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
 
 
 
@@ -146,6 +171,55 @@
             
             
             
+            </div>
+            <div class="d-xl-none col-12" id="Page" style="height: 900px; border: 2px solid red; border-right: none;">
+
+                <div class="container">
+                    <div id="sideMenu" class="menu">
+                        <input type="button" value="X" id="closeMenu" onclick="SideBarClose()">
+                            <div class="Ricerca">
+                                <div class="TitoloNav">Ricerca</div>
+                                <div class="search-container">
+                                    <input type="text" id="searchInputM" placeholder="Ricerca veloce...">
+                                </div>
+                                <div id="suggestionsM" class="suggestionsM"></div>
+                                <a href="./WordSearch.html" class="Bottone">Ricerca Pokemon per parola</a>
+                                <a href="./TypeSearch.html" class="Bottone">Ricerca Pokemon per tipo</a>
+                            </div>
+                            <div class="Main">
+                                <div class="TitoloNav">Main</div>
+                                <input type="button" value="Home" class="Bottone" onclick="window.location.href='index.html'">
+                                <input type="button" value="PokéRandom" class="Bottone" onclick="window.location.href='random.html'">
+                                <input type="button" value="Tipo a caso" class="Bottone">
+                                <input type="button" value="Crediti" class="Bottone">
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="Bottone">Speciale</a>
+                            </div>
+                            <div class="Social">
+        
+                                <div class="TitoloNav">Social</div>
+                                <a href="http://google.it" class="Bottone">Google</a>
+                                <a href="http://youtube.it" class="Bottone">Youtube</a>
+                                <a href="http://github.com" class="Bottone">Github</a>
+                                <a href="http://reddit.com" class="Bottone">Reddit</a>
+                                <a href="http://facebook.com" class="Bottone">Facebook</a>
+                                <a href="http://X.com" class="Bottone">X</a>
+                                <a href="http://instagram.com" class="Bottone">Instagram</a>
+        
+                            </div>
+                            <div class="Lingua">
+                                <div class="TitoloNav">Lingue</div>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_italiana" class="Bottone">Italiano</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_inglese" class="Bottone">Inglese</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_spagnola" class="Bottone">Spagnolo</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_francese" class="Bottone">Francese</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_tedesca" class="Bottone">Tedesco</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_giapponese" class="Bottone">Giapponese</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_cinese" class="Bottone">Cinese</a>
+        
+                            </div>
+                    </div>
+                </div>
+                <input type="text" placeholder="Cerca un Pokemon..." id="SearchByNameM">   
             </div>
         </div>        
     </div>

@@ -20,11 +20,14 @@ const StampaNext=()=>
     if(CurrentPKM!=0)
     {
         document.querySelector("#uno").value="<--"+pokedex[CurrentPKM-1].nome
+        document.querySelector("#PrimoBar").value="<--"+pokedex[CurrentPKM-1].nome
     }
     document.querySelector("#due").innerHTML=pokedex[CurrentPKM].nome
+    document.querySelector("#SecondoBar").innerHTML=pokedex[CurrentPKM].nome
     if(CurrentPKM!=890)
     {
         document.querySelector("#tre").value=pokedex[CurrentPKM+1].nome+"-->"
+        document.querySelector("#TerzoBar").value=pokedex[CurrentPKM+1].nome+"-->"
     }
 }
 
@@ -51,11 +54,14 @@ const StampaPrima=()=>
     if(CurrentPKM!=0)
     {
         document.querySelector("#uno").value="<--"+pokedex[CurrentPKM-1].nome
+        document.querySelector("#PrimoBar").value="<--"+pokedex[CurrentPKM-1].nome
     }
     document.querySelector("#due").innerHTML=pokedex[CurrentPKM].nome
+    document.querySelector("#SecondoBar").innerHTML=pokedex[CurrentPKM].nome
     if(CurrentPKM!=890)
     {
         document.querySelector("#tre").value=pokedex[CurrentPKM+1].nome+"-->"
+        document.querySelector("#TerzoBar").value=pokedex[CurrentPKM+1].nome+"-->"
     }
 }
 
@@ -73,11 +79,14 @@ const StampaSearchPKM=()=>
     if(CurrentPKM!=0)
     {
         document.querySelector("#uno").value="<--"+pokedex[CurrentPKM-1].nome
+        document.querySelector("#PrimoBar").value="<--"+pokedex[CurrentPKM-1].nome
     }
     document.querySelector("#due").innerHTML=pokedex[CurrentPKM].nome
+    document.querySelector("#SecondoBar").innerHTML=pokedex[CurrentPKM].nome
     if(CurrentPKM!=890)
     {
         document.querySelector("#tre").value=pokedex[CurrentPKM+1].nome+"-->"
+        document.querySelector("#TerzoBar").value=pokedex[CurrentPKM+1].nome+"-->"
     }
 
 }

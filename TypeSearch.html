@@ -85,7 +85,32 @@
                 </div>
             </div>
             <!-- Header Mobile -->
-
+            <div class="d-xl-none col-12" style="height: 120px; background-color: rgb(236, 236, 236);">
+                <div  id="TotUp">  
+                    <div id="TotUUp">
+                        <div id="TotUpBenvenuto">
+                            <input type="button" value="_" id="openMenu" onclick="SideBarOpen()">
+                            <div id="Welcome">BENVENUTI</div>
+                            <div>nella poke wiki!</div>
+                        </div>
+                        <div>by Leonardo Canino</div>
+                    </div>
+                    <div id="TotUpDown">
+                        <div class="DivChicche">
+                            <div id="StampaNum"></div>
+                            <div>Pokemon!</div>
+                        </div>
+                        <div class="DivChicche">
+                            <div id="StampaPoke"></div>
+                            <div>Pokemon del giorno!</div>
+                        </div>
+                        <div class="DivChicche">
+                            <div id="StampaTipo"></div>
+                            <div>Tipo del giorno!</div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
 
 
 
@@ -141,47 +166,134 @@
                 <div id="Pagina">
                     <div id="TopBar" style="display: none;"></div>
                        <div id="containerSuggestions"><div id="suggestions" class="suggestions"></div></div>    
-                        <div class="riga">
-                            <input type="button" value="Acqua" id="acqua" class="BottoneTipo" onclick="tipoAcqua()">
-                            <input type="button" value="Fuoco" id="fuoco" class="BottoneTipo" onclick="tipoFuoco()">
-                        </div>
-                        <div class="riga">
-                            <input type="button" value="Erba" id="erba" class="BottoneTipo" onclick="tipoErba()">
-                            <input type="button" value="Elettro" id="elettro" class="BottoneTipo" onclick="tipoElettro()">
-                        </div>
-                        <div class="riga">
-                            <input type="button" value="Normale" id="normale" class="BottoneTipo" onclick="tipoNormale()">
-                            <input type="button" value="Psico" id="psico" class="BottoneTipo" onclick="tipoPsico()">
-                        </div>
-                        <div class="riga">
-                            <input type="button" value="Lotta" id="lotta" class="BottoneTipo" onclick="tipoLotta()">
-                            <input type="button" value="Terra" id="terra" class="BottoneTipo" onclick="tipoTerra()">
-                        </div>
-                        <div class="riga">
-                            <input type="button" value="Veleno" id="veleno" class="BottoneTipo" onclick="tipoVeleno()">
-                            <input type="button" value="Volante" id="volante" class="BottoneTipo" onclick="tipoVolante()">
-                        </div>
-                        <div class="riga">
-                            <input type="button" value="Coleottero" id="coleottero" class="BottoneTipo" onclick="tipoColeottero()">
-                            <input type="button" value="Roccia" id="roccia" class="BottoneTipo" onclick="tipoRoccia()">
-                        </div>
-                        <div class="riga">
-                            <input type="button" value="Spettro" id="spettro" class="BottoneTipo" onclick="tipoSpettro()">
-                            <input type="button" value="Acciaio" id="acciaio" class="BottoneTipo" onclick="tipoAcciaio()">
-                        </div>
-                        <div class="riga">
-                            <input type="button" value="Ghiaccio" id="ghiaccio" class="BottoneTipo" onclick="tipoGhiaccio()">
-                            <input type="button" value="Drago" id="drago" class="BottoneTipo" onclick="tipoDrago()">
-                        </div>
-                        <div class="riga">
-                            <input type="button" value="Buio" id="buio" class="BottoneTipo BottoneTipoF" onclick="tipoBuio()">
-                            <input type="button" value="Folletto" id="folletto" class="BottoneTipo BottoneTipoF" onclick="tipoFolletto()">
-                        </div>
+                       <div class="riga">
+                        <input type="button" value="Acqua" class="acqua BottoneTipo" onclick="tipoAcqua()">
+                        <input type="button" value="Fuoco" class="fuoco BottoneTipo" onclick="tipoFuoco()">
+                    </div>
+                    <div class="riga">
+                        <input type="button" value="Erba" class="erba BottoneTipo" onclick="tipoErba()">
+                        <input type="button" value="Elettro" class="elettro BottoneTipo" onclick="tipoElettro()">
+                    </div>
+                    <div class="riga">
+                        <input type="button" value="Normale" class="normale BottoneTipo" onclick="tipoNormale()">
+                        <input type="button" value="Psico" class="psico BottoneTipo" onclick="tipoPsico()">
+                    </div>
+                    <div class="riga">
+                        <input type="button" value="Lotta" class="lotta BottoneTipo" onclick="tipoLotta()">
+                        <input type="button" value="Terra" class="terra BottoneTipo" onclick="tipoTerra()">
+                    </div>
+                    <div class="riga">
+                        <input type="button" value="Veleno" class="veleno BottoneTipo" onclick="tipoVeleno()">
+                        <input type="button" value="Volante" class="volante BottoneTipo" onclick="tipoVolante()">
+                    </div>
+                    <div class="riga">
+                        <input type="button" value="Coleottero" class="coleottero BottoneTipo" onclick="tipoColeottero()">
+                        <input type="button" value="Roccia" class="roccia BottoneTipo" onclick="tipoRoccia()">
+                    </div>
+                    <div class="riga">
+                        <input type="button" value="Spettro" class="spettro BottoneTipo" onclick="tipoSpettro()">
+                        <input type="button" value="Acciaio" class="acciaio BottoneTipo" onclick="tipoAcciaio()">
+                    </div>
+                    <div class="riga">
+                        <input type="button" value="Ghiaccio" class="ghiaccio BottoneTipo" onclick="tipoGhiaccio()">
+                        <input type="button" value="Drago" class="drago BottoneTipo" onclick="tipoDrago()">
+                    </div>
+                    <div class="riga">
+                        <input type="button" value="Buio" class="buio BottoneTipo BottoneTipoF" onclick="tipoBuio()">
+                        <input type="button" value="Folletto" class="folletto BottoneTipo BottoneTipoF" onclick="tipoFolletto()">
+                    </div>
+                    
                                     
                 </div>
             
             
             
+            </div>
+            <div class="d-xl-none col-12" id="PageT" style="height: 800px; border: 2px solid red; border-right: none;">
+
+                <div class="container">
+                    <div id="sideMenu" class="menu">
+                        <input type="button" value="X" id="closeMenu" onclick="SideBarClose()">
+                            <div class="Ricerca">
+                                <div class="TitoloNav">Ricerca</div>
+                                <div class="search-container">
+                                    <input type="text" id="searchInputM" placeholder="Ricerca veloce...">
+                                </div>
+                                <div id="suggestionsM" class="suggestionsM"></div>
+                                <a href="./WordSearch.html" class="Bottone">Ricerca Pokemon per parola</a>
+                                <a href="./TypeSearch.html" class="Bottone">Ricerca Pokemon per tipo</a>
+                            </div>
+                            <div class="Main">
+                                <div class="TitoloNav">Main</div>
+                                <input type="button" value="Home" class="Bottone" onclick="window.location.href='index.html'">
+                                <input type="button" value="PokéRandom" class="Bottone" onclick="window.location.href='random.html'">
+                                <input type="button" value="Tipo a caso" class="Bottone">
+                                <input type="button" value="Crediti" class="Bottone">
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="Bottone">Speciale</a>
+                            </div>
+                            <div class="Social">
+        
+                                <div class="TitoloNav">Social</div>
+                                <a href="http://google.it" class="Bottone">Google</a>
+                                <a href="http://youtube.it" class="Bottone">Youtube</a>
+                                <a href="http://github.com" class="Bottone">Github</a>
+                                <a href="http://reddit.com" class="Bottone">Reddit</a>
+                                <a href="http://facebook.com" class="Bottone">Facebook</a>
+                                <a href="http://X.com" class="Bottone">X</a>
+                                <a href="http://instagram.com" class="Bottone">Instagram</a>
+        
+                            </div>
+                            <div class="Lingua">
+                                <div class="TitoloNav">Lingue</div>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_italiana" class="Bottone">Italiano</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_inglese" class="Bottone">Inglese</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_spagnola" class="Bottone">Spagnolo</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_francese" class="Bottone">Francese</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_tedesca" class="Bottone">Tedesco</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_giapponese" class="Bottone">Giapponese</a>
+                                <a href="https://it.wikipedia.org/wiki/Lingua_cinese" class="Bottone">Cinese</a>
+        
+                            </div>
+                    </div>
+                </div>
+                <div class="riga">
+                    <input type="button" value="Acqua" class="acqua BottoneTipo" onclick="tipoAcqua()">
+                    <input type="button" value="Fuoco" class="fuoco BottoneTipo" onclick="tipoFuoco()">
+                </div>
+                <div class="riga">
+                    <input type="button" value="Erba" class="erba BottoneTipo" onclick="tipoErba()">
+                    <input type="button" value="Elettro" class="elettro BottoneTipo" onclick="tipoElettro()">
+                </div>
+                <div class="riga">
+                    <input type="button" value="Normale" class="normale BottoneTipo" onclick="tipoNormale()">
+                    <input type="button" value="Psico" class="psico BottoneTipo" onclick="tipoPsico()">
+                </div>
+                <div class="riga">
+                    <input type="button" value="Lotta" class="lotta BottoneTipo" onclick="tipoLotta()">
+                    <input type="button" value="Terra" class="terra BottoneTipo" onclick="tipoTerra()">
+                </div>
+                <div class="riga">
+                    <input type="button" value="Veleno" class="veleno BottoneTipo" onclick="tipoVeleno()">
+                    <input type="button" value="Volante" class="volante BottoneTipo" onclick="tipoVolante()">
+                </div>
+                <div class="riga">
+                    <input type="button" value="Coleottero" class="coleottero BottoneTipo" onclick="tipoColeottero()">
+                    <input type="button" value="Roccia" class="roccia BottoneTipo" onclick="tipoRoccia()">
+                </div>
+                <div class="riga">
+                    <input type="button" value="Spettro" class="spettro BottoneTipo" onclick="tipoSpettro()">
+                    <input type="button" value="Acciaio" class="acciaio BottoneTipo" onclick="tipoAcciaio()">
+                </div>
+                <div class="riga">
+                    <input type="button" value="Ghiaccio" class="ghiaccio BottoneTipo" onclick="tipoGhiaccio()">
+                    <input type="button" value="Drago" class="drago BottoneTipo" onclick="tipoDrago()">
+                </div>
+                <div class="riga">
+                    <input type="button" value="Buio" class="buio BottoneTipo BottoneTipoF" onclick="tipoBuio()">
+                    <input type="button" value="Folletto" class="folletto BottoneTipo BottoneTipoF" onclick="tipoFolletto()">
+                </div>
+                
+
             </div>
         </div>        
     </div>
