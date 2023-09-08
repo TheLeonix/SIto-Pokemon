@@ -111,6 +111,16 @@ const generateRandomNumberBasedOnDate=(date)=>
                 suggestionItem.addEventListener('click', () => {
                     searchInput.value = suggestion;
                     suggestionsContainer.innerHTML = '';
+                    let Parola=document.querySelector("#searchInput").value
+                    for(j=0;j<pokedex.length;j++)
+                    {
+                        console.log("Entrato")
+                        if(Parola.toLowerCase()===pokedex[j].nome.toLowerCase())
+                        {
+                          localStorage.setItem('Current',j-1)
+                          window.location.href='StampaPKM.html'
+                        }
+                    }
                 });
                 suggestionsContainer.appendChild(suggestionItem);
             }
@@ -164,6 +174,23 @@ const SideBarClose=()=>
 {
   sideMenu.style.left = "-250px";
 }
+document.querySelector("#searchInput").addEventListener("keydown", (event)=> {
+  if (event.key === "Enter") {
+     const FastSearch=()=> {
+      console.log("Entrato")
+      let Parola=document.querySelector("#searchInput").value
+      for(i=0;i<pokedex.length;i++)
+      {
+          if(Parola.toLowerCase()===pokedex[i].nome.toLowerCase())
+          {
+            localStorage.setItem('Current',i-1)
+            window.location.href='StampaPKM.html'
+          }
+      }
+    }
+    FastSearch()
+  }
+});
 
 document.querySelector("#SearchByName").addEventListener("keydown", (event)=> {
   if (event.key === "Enter") {
